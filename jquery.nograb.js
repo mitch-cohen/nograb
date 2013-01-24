@@ -11,7 +11,7 @@
 
 (function ($) {
   $.fn.noGrab = function () {
-    this.filter('img').map(function () {
+    this.filter('img').add('img[nograb]').map(function () {
       var img = $(this);
       ///we don't get the width and height until the image actually loads.
       ///Future enhancements will be adding Deferred objects and errors on unloadable images (stay tuned)
