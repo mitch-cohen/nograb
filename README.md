@@ -19,7 +19,7 @@ You can use any selector to grab the img elements that you want nograb to be app
 For example
 Let's say you want to apply nograb to the following:
 
-`<img id='profile-pic'  src="somepic.jpg" >'
+`<img id='profile-pic'  src="somepic.jpg" >`
 
 Your selector can be:
 ```javascript
