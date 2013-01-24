@@ -41,3 +41,4 @@ Or
 	$('img[nograb]').nograb();  ///More explicit but not needed because of the above example.
 ```
 
+JSFIDDLE example: http://jsfiddle.net/2vZet/embedded/result/
