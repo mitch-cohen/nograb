@@ -1,7 +1,7 @@
-nograb
+nograb (works with JQuery 1.6.4 and higher)
 ======
 
-JQuery plug-in that replaces img tags with divs to prevent easy download.
+JQuery plug-in that replaces img tags with divs to prevent easy download.  It only works with img tags and not type="image". 
 
 ## Why did I create this?
 
