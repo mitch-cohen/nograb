@@ -20,12 +20,10 @@
           height = this.height;
         src = this.src;
         var div = $('<div></div>').css({
-          zIndex: 100,
-          position: 'relative',
           width: width,
           height: height,
           background: 'url(' + src + ') no-repeat center center'
-        })
+        }).addClass(img.attr('class')); //pride dimensions and applied classes
         img.replaceWith(div);
       });
     });
