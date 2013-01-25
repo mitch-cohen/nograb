@@ -1,7 +1,7 @@
 /**
  * nograb plugin for jQuery 
  * ---
- * @author Mitch Cohen (http://ww.kowodi.com)
+ * @author Mitch Cohen (http://www.kowodi.com)
  * @version 1
  * @updated 24-JAN-13
  * ---
