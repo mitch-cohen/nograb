@@ -42,4 +42,4 @@ Or
 ```
 
 JSFIDDLE example: 
-http://jsfiddle.net/KDwaX/
+http://jsfiddle.net/jfhw7/
