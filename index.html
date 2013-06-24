@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Nograb : JQuery plug-in that replaces img tags with divs to prevent easy download." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Nograb</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mitch-cohen/nograb">View on GitHub</a>
+
+          <h1 id="project_title">Nograb</h1>
+          <h2 id="project_tagline">JQuery plug-in that replaces img tags with divs to prevent easy download.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mitch-cohen/nograb/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mitch-cohen/nograb/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="nograb-works-with-jquery-164-and-higher" class="anchor" href="#nograb-works-with-jquery-164-and-higher"><span class="octicon octicon-link"></span></a>nograb (works with JQuery 1.6.4 and higher)</h1>
+
+<p>JQuery plug-in that replaces img tags with divs to prevent easy download.  It only works with img tags and not type="image". </p>
+
+<h2>
+<a name="why-did-i-create-this" class="anchor" href="#why-did-i-create-this"><span class="octicon octicon-link"></span></a>Why did I create this?</h2>
+
+<p>I am guessing someone out there wants to make scraping their site more difficult.  So, this was my solution.</p>
+
+<h2>
+<a name="but-i-can-still-parse-out-the-images" class="anchor" href="#but-i-can-still-parse-out-the-images"><span class="octicon octicon-link"></span></a>But I can still parse out the images!</h2>
+
+<p>Yes.   That is correct.   However, this plugin was made to make it harder not impossible to scrape images.</p>
+
+<h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>You can use any selector to grab the img elements that you want nograb to be applied to.<br>
+For example
+Let's say you want to apply nograb to the following:</p>
+
+<p><code>&lt;img id='profile-pic'  src="somepic.jpg" &gt;</code></p>
+
+<p>Your selector can be:</p>
+
+<div class="highlight"><pre>    <span class="nx">$</span><span class="p">(</span><span class="s1">'#profile-pic'</span><span class="p">).</span><span class="nx">nograb</span><span class="p">();</span>
+</pre></div>
+
+<p>If you don't want to use a class, you can apply the 'nograb' markup attribute like the following example.</p>
+
+<p><code>&lt;img nograb src="somepic.jpg" &gt;</code></p>
+
+<p>Then, you can call either of the following:</p>
+
+<div class="highlight"><pre>    <span class="nx">$</span><span class="p">.</span><span class="nx">nograb</span><span class="p">();</span>
+</pre></div>
+
+<p>Or</p>
+
+<div class="highlight"><pre>    <span class="nx">$</span><span class="p">(</span><span class="s1">'img[nograb]'</span><span class="p">).</span><span class="nx">nograb</span><span class="p">();</span>  <span class="c1">///More explicit but not needed because of the above example.</span>
+</pre></div>
+
+<p>JSFIDDLE example: 
+<a href="http://jsfiddle.net/KDwaX/">http://jsfiddle.net/KDwaX/</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Nograb maintained by <a href="https://github.com/mitch-cohen">mitch-cohen</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
